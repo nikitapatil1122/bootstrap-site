@@ -1,0 +1,161 @@
+#title{
+  background-color: #170055;
+  color: white;
+}
+
+body{
+  font-family: "Montserrat-Thik";
+}
+
+.heading{
+  font-family: "Montserrat-Black";
+  size:3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 6%;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.img-header{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 160px;
+  border-bottom-left-radius: 180px;
+  border-bottom-right-radius: 40px;
+
+  position: absolute;
+  right: 25%;
+  width: 350px;
+}
+
+@media (max-width:1130px) {
+.img-header{
+  position: static;
+}
+
+#title{
+  text-align: center;
+}
+}
+
+@media (max-width:740px) {
+  .nav-item {
+    padding: 0;
+  }
+}
+
+/* features */
+#features{
+  padding: 6% 15%;
+  text-align: center;
+  background-color: white;
+
+  position: relative;
+}
+
+#features i{
+  color:#035397;
+}
+
+#features i:hover{
+  color:purple;
+}
+
+h3{
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #035397;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+/* press */
+#press{
+  background-color: #7FB5FF;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.press-image{
+width: 10%;
+}
+
+
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* cta */
+#cta{
+  background-color: #170055;
+  color: white;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+/* footer */
+#footer{
+  color: white;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+#footer i{
+  color: #8f8f8f;
+  padding: 16px;
+}
